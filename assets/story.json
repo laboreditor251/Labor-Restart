@@ -1729,7 +1729,7 @@
       "choices": [],
       "auto_routes": [
         {
-          "condition": "destination == \"上海市中心\" AND (priority == \"职业上升\" OR education == \"大学\" OR education == \"研究生+\")",
+          "condition": "destination == \"杭州市\" AND (priority == \"职业上升\" OR education == \"大学\" OR education == \"研究生+\")",
           "to": "b2_start",
           "effects": {
             "branch": "b2",
@@ -1737,7 +1737,7 @@
           }
         },
         {
-          "condition": "destination == \"上海市中心\"",
+          "condition": "destination == \"杭州市\"",
           "to": "b6_guard",
           "effects": {
             "branch": "b6",
@@ -1868,10 +1868,10 @@
           }
         },
         {
-          "label": "上海市中心",
+          "label": "杭州市",
           "to": "pre_temper",
           "effects": {
-            "destination": "上海市中心"
+            "destination": "杭州市"
           }
         },
         {
